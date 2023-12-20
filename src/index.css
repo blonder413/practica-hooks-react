@@ -3,3 +3,7 @@ body {
   color: #bcc9cc;
   padding: 1% 2%;
 }
+
+button {
+  margin: .3em;
+}
