@@ -3,6 +3,7 @@ import { FormularioComponent } from "./components/FormularioComponent"
 import { UsuariosComponent } from "./components/UsuariosComponent"
 import { CalculosPesadosComponent } from "./components/CalculosPesadosComponent"
 import { CallBackComponent } from './components/CallBackComponent'
+import { ReducerComponent } from "./components/ReducerComponent"
 
 export const HooksApp = () => {
     return(
@@ -13,7 +14,8 @@ export const HooksApp = () => {
         {/* <FormularioComponent></FormularioComponent> */}
         {/* <UsuariosComponent></UsuariosComponent> */}
         {/* <CalculosPesadosComponent></CalculosPesadosComponent> */}
-        <CallBackComponent></CallBackComponent>
+        {/* <CallBackComponent></CallBackComponent> */}
+        <ReducerComponent></ReducerComponent>
         </>
     )
 }
